@@ -15,3 +15,4 @@ class Bar {
 }
 
 // Agregar property "imprimir=true" para que "miMetodo()" se ejecute.
+
