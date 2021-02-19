@@ -15,9 +15,9 @@ function leerDesdeDB() {
     return data;
   }
   catch (err) {
-    alert(`Error- Vuelva a  ingresar el ID a leer!\n\n\t${err.message}`);
-    console.warn('Error- Vuelva a  ingresar el ID a leer', err);
-    //se vuelve a habilitar el boton
+    alert(`Error-Vuelva a ingresar el ID a leer!\n\n\t${err.message}`);
+    console.warn('Error-Vuelva a ingresar el ID a leer!', err);
+    // se vuelve a habilitar el boton
     return null;
   }
   finally {
